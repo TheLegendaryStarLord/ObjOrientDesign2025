@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=calcPanel
+comment1.params=factory
+comment1.target=calcPanel(mvc.AppFactory)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

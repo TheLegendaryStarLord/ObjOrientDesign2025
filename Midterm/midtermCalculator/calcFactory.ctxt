@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=calcFactory
+comment1.params=
+comment1.target=mvc.Model\ makeModel()
+comment2.params=model
+comment2.target=mvc.View\ makeView(mvc.Model)
+comment3.params=
+comment3.target=java.lang.String[]\ getEditCommands()
+comment4.params=model\ type\ source
+comment4.target=mvc.Command\ makeEditCommand(mvc.Model,\ java.lang.String,\ java.lang.Object)
+comment5.params=
+comment5.target=java.lang.String\ getTitle()
+comment6.params=
+comment6.target=java.lang.String[]\ getHelp()
+comment7.params=
+comment7.target=java.lang.String\ about()
+numComments=8

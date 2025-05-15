@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SafeFrame
+comment1.params=ev
+comment1.target=void\ processWindowEvent(java.awt.event.WindowEvent)
+comment2.params=
+comment2.target=SafeFrame()
+numComments=3

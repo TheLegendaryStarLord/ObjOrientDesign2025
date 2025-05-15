@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Publisher
+comment1.params=subscriber
+comment1.target=void\ subscribe(Subscriber)
+comment2.params=subscriber
+comment2.target=void\ unsubscribe(Subscriber)
+comment3.params=
+comment3.target=void\ notifySubscribers()
+numComments=4

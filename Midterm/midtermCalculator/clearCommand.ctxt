@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=clearCommand
+comment1.params=model
+comment1.target=clearCommand(mvc.Model)
+comment2.params=
+comment2.target=void\ execute()
+numComments=3
