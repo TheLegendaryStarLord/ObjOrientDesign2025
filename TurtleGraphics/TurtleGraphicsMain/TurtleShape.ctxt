@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TurtleShape
+comment1.params=turtle
+comment1.target=TurtleShape(Turtle)
+comment2.params=
+comment2.target=int\ getHeight()
+comment3.params=
+comment3.target=int\ getWidth()
+comment4.params=
+comment4.target=int\ getXc()
+comment5.params=
+comment5.target=int\ getYc()
+comment6.params=gc
+comment6.target=void\ draw(java.awt.Graphics2D)
+numComments=7

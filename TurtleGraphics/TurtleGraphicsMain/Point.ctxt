@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Point
+comment1.params=x\ y\ color\ penStatus
+comment1.target=Point(int,\ int,\ java.awt.Color,\ boolean)
+comment2.params=color
+comment2.target=void\ setColor(java.awt.Color)
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+comment4.params=status
+comment4.target=void\ setPenStatus(boolean)
+comment5.params=
+comment5.target=boolean\ getPenStatus()
+comment6.params=
+comment6.target=int\ getX()
+comment7.params=
+comment7.target=int\ getY()
+numComments=8

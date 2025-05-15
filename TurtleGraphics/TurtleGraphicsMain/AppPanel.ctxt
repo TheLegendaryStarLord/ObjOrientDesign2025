@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AppPanel
+comment1.params=
+comment1.target=AppPanel()
+comment2.params=p\ controls
+comment2.target=void\ ButtonLayout(javax.swing.JPanel,\ javax.swing.JPanel)
+comment3.params=
+comment3.target=void\ setListeners()
+comment4.params=
+comment4.target=javax.swing.JMenuBar\ createMenuBar()
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=direction
+comment6.target=void\ moveTurtle(Direction)
+comment7.params=
+comment7.target=void\ chooseColor()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TurtleGraphicsView
+comment1.params=turtle
+comment1.target=TurtleGraphicsView(Turtle)
+comment2.params=g
+comment2.target=void\ paintComponent(java.awt.Graphics)
+comment3.params=
+comment3.target=void\ update()
+comment4.params=newTurtle
+comment4.target=void\ setTurtle(Turtle)
+comment5.params=
+comment5.target=void\ updateView()
+numComments=6

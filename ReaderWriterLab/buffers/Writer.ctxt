@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Writer
+comment1.params=name\ buffer
+comment1.target=Writer(java.lang.String,\ Buffer)
+comment2.params=
+comment2.target=void\ run()
+numComments=3

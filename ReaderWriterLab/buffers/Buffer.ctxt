@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Buffer
+comment1.params=msg
+comment1.target=boolean\ write(Message)
+comment2.params=
+comment2.target=Message\ read()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

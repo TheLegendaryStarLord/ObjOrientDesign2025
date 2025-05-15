@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Utilities
+comment1.params=query
+comment1.target=boolean\ confirm(java.lang.String)
+comment10.params=
+comment10.target=int\ getID()
+comment2.params=query
+comment2.target=java.lang.String\ ask(java.lang.String)
+comment3.params=info
+comment3.target=void\ inform(java.lang.String)
+comment4.params=items
+comment4.target=void\ inform(java.lang.String[])
+comment5.params=gripe
+comment5.target=void\ error(java.lang.String)
+comment6.params=gripe
+comment6.target=void\ error(java.lang.Exception)
+comment7.params=fName\ open
+comment7.target=java.lang.String\ getFileName(java.lang.String,\ java.lang.Boolean)
+comment7.text=\ public\ static\ void\ saveChanges(Model\ model)\ {\r\n\ \ \ \ \ \ \ \ if\ (model.getUnsavedChanges()\ &&\ tools.Utilities.confirm("current\ model\ has\ unsaved\ changes,\ continue?"))\r\n\ \ \ \ \ \ \ \ \ \ \ \ tools.Utilities.save(model,\ false);\r\n}
+comment8.params=name\ items\ handler
+comment8.target=javax.swing.JMenu\ makeMenu(java.lang.String,\ java.lang.String[],\ java.awt.event.ActionListener)
+comment8.text=\ \ \ \ public\ static\ void\ save(Model\ model,\ Boolean\ saveAs)\ {\r\n\ \ \ \ \ \ \ \ String\ fName\ \=\ model.getFileName();\r\n\ \ \ \ \ \ \ \ if\ (fName\ \=\=\ null\ ||\ saveAs)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ fName\ \=\ getFileName(fName,\ false);\r\n\ \ \ \ \ \ \ \ \ \ \ \ model.setFileName(fName);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ try\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ ObjectOutputStream\ os\ \=\ new\ ObjectOutputStream(new\ FileOutputStream(fName));\r\n\ \ \ \ \ \ \ \ \ \ \ \ model.setUnsavedChanges(false);\r\n\ \ \ \ \ \ \ \ \ \ \ \ os.writeObject(model);\r\n\ \ \ \ \ \ \ \ \ \ \ \ os.close();\r\n\ \ \ \ \ \ \ \ }\ catch\ (Exception\ err)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ model.setUnsavedChanges(true);\r\n\ \ \ \ \ \ \ \ \ \ \ \ tools.Utilities.error(err);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n\r\n\ \ \ \ //\ open\ model\r\n\ \ \ \ public\ static\ Model\ open(Model\ model)\ {\r\n\ \ \ \ \ \ \ \ saveChanges(model);\r\n\ \ \ \ \ \ \ \ String\ fName\ \=\ getFileName(model.getFileName(),\ true);\r\n\ \ \ \ \ \ \ \ Model\ newModel\ \=\ null;\r\n\ \ \ \ \ \ \ \ try\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ ObjectInputStream\ is\ \=\ new\ ObjectInputStream(new\ FileInputStream(fName));\r\n\ \ \ \ \ \ \ \ \ \ \ \ newModel\ \=\ (Model)is.readObject();\r\n\ \ \ \ \ \ \ \ \ \ \ \ is.close();\r\n\ \ \ \ \ \ \ \ }\ catch\ (Exception\ err)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ tools.Utilities.error(err);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ newModel;\r\n}
+comment9.params=msg
+comment9.target=void\ log(java.lang.String)
+numComments=11
