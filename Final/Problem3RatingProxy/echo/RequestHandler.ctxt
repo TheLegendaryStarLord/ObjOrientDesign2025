@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RequestHandler
+comment1.params=s
+comment1.target=RequestHandler(java.net.Socket)
+comment2.params=
+comment2.target=RequestHandler()
+comment3.params=msg
+comment3.target=java.lang.String\ response(java.lang.String)
+comment4.params=
+comment4.target=void\ shutDown()
+comment5.params=
+comment5.target=void\ run()
+numComments=6

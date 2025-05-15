@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Account
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Account\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=amt
+comment1.target=java.lang.Double\ deposit(java.lang.Double)
+comment2.params=amt
+comment2.target=java.lang.Double\ withdraw(java.lang.Double)
+numComments=3

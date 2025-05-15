@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Dispatcher
+comment1.params=methName\ args
+comment1.target=java.lang.Object\ dispatch(java.lang.String,\ java.lang.Object[])
+numComments=2

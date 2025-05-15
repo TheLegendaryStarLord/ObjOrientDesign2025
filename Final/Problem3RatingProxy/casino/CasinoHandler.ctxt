@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CasinoHandler
+comment1.params=max
+comment1.target=int\ hitMe(int)
+comment2.params=sock
+comment2.target=CasinoHandler(java.net.Socket)
+comment3.params=
+comment3.target=CasinoHandler()
+comment4.params=
+comment4.target=void\ init()
+comment5.params=request
+comment5.target=java.lang.String\ response(java.lang.String)
+numComments=6
