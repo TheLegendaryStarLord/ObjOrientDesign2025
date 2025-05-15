@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SecurityHandler
+comment1.params=request
+comment1.target=java.lang.String\ search(java.lang.String)
+comment2.params=request\ response
+comment2.target=void\ update(java.lang.String,\ java.lang.String)
+comment3.params=s
+comment3.target=SecurityHandler(java.net.Socket)
+comment4.params=
+comment4.target=SecurityHandler()
+comment5.params=request
+comment5.target=java.lang.String\ response(java.lang.String)
+numComments=6
