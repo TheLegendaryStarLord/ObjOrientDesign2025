@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=View
+comment1.params=model
+comment1.target=View(Model)
+comment2.params=modelNew
+comment2.target=void\ setModel(Model)
+comment3.params=
+comment3.target=void\ update()
+numComments=4

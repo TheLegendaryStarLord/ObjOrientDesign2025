@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=AppFactory
+comment1.params=
+comment1.target=Model\ makeModel()
+comment2.params=model
+comment2.target=View\ makeView(Model)
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment4.params=
+comment4.target=java.lang.String[]\ getHelp()
+comment5.params=
+comment5.target=java.lang.String\ about()
+comment6.params=
+comment6.target=java.lang.String[]\ getEditCommands()
+comment7.params=model\ name\ source
+comment7.target=Command\ makeEditCommand(Model,\ java.lang.String,\ java.lang.Object)
+numComments=8

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Reactor
+comment1.params=
+comment1.target=void\ incTemp()
+comment2.params=
+comment2.target=void\ decTemp()
+comment3.params=
+comment3.target=int\ getTemp()
+numComments=4

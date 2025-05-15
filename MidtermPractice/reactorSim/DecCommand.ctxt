@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=DecCommand
+comment1.params=model
+comment1.target=DecCommand(mvc.Model)
+comment2.params=
+comment2.target=void\ execute()
+numComments=3

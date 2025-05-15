@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=StopLightComponent
+comment1.params=light\ xc\ yc\ height
+comment1.target=StopLightComponent(StopLight,\ int,\ int,\ int)
+comment2.params=light
+comment2.target=StopLightComponent(StopLight)
+comment3.params=gc
+comment3.target=void\ paintComponent(java.awt.Graphics)
+numComments=4

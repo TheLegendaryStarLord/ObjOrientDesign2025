@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Model
+comment1.params=
+comment1.target=void\ changed()
+comment2.params=
+comment2.target=java.lang.String\ getFileName()
+comment3.params=fileName
+comment3.target=void\ setFileName(java.lang.String)
+comment4.params=
+comment4.target=boolean\ getUnsavedChanges()
+comment5.params=state
+comment5.target=void\ setUnsavedChanges(boolean)
+numComments=6
